@@ -27,7 +27,11 @@
 - git add * ou git add .  (vai sair de untracked e vai enviar para stage para poder ser comitada)
 - git commit -m "  "  ( sempre bom colocar  uma mensagem entre as aspas identificando algo importante relacionado sobre o commit)
 
+### Comandos para apontar um repositório remoto
 
+- git remote add origin "url do repositório sem as aspas"
+- git remote -v   ( lista os repositórios remotos)
+- git push origin "nome da branch sem aspas" ( manda par ao local remoto GitHub)
 
 
 
