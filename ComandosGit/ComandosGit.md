@@ -15,7 +15,7 @@
 
 ### Comandos para pegar e mandar projeto - GitHub
 
-	- git clone "url do seu repositório GitHub sem as aspas"
+- git clone "url do seu repositório GitHub sem as aspas"
 
 - git push origin "colocar o nome da branch sem aspas" ( manda para o local remoto github )
 -  gaita status   | monitora os estados dos arquivos
