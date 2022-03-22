@@ -1,5 +1,4 @@
-# Lógica de programção com professor Denilson Bonatti.
+# Meus estudos BootCamp Philips.
 
 
-
-Exercícios praticados nas aulas de lógica de programação da Dio.
+meus conhecimentos absorvido nesse bootcamp ate agora...
