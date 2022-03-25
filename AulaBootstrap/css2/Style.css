@@ -1,0 +1,92 @@
+body{
+    background-image:url(../imagens/Fundo2.jpg); 
+}
+.navbar{
+    background-color:rgb(179, 176, 176);
+}
+
+
+
+.quem-somos{
+    background-color: rgb(141, 135, 135);
+    color: black;
+    
+    
+}
+.bem-vindo{
+    font-family: verdana;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+}
+.imagem-fundo{
+    border-radius: 3px;
+}
+
+.margin{
+    padding-top: 50px;
+    padding-bottom: 40px ;
+}
+.margin2{
+    margin-right: 30px;
+}
+.texto{
+    margin: auto;
+    margin-top: 20px;
+    text-align:center;
+    width: 600px;
+    font-family: Verdana;
+}
+.rounded-circle2{
+    border-radius: 50%;
+ 
+}
+
+.corte-fundo{
+    background-color: rgb(95, 90, 90);
+    color: black;
+
+}
+
+
+.corte{
+    color:black;
+    font-family: Verdana;
+    font-size: 20px;
+    
+
+}
+
+.rounded-circle:hover{
+    width:230px;
+    height:220px;
+}
+
+.rounded-circle2:hover{
+    width:80px;
+    height:80px;
+}
+
+footer{
+   
+    margin-top:5px;
+    background-color:rgb(53, 52, 52);
+    color: black;
+    
+    
+}
+
+.tamanho{
+    padding-top: 20px;
+    height: 150px;
+    
+}
+
+
+
+
+
+
+
+
+    
