@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos- flex basis</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    
+
+    <h2>flex-basis: auto; </h2>  
+    <div class=" container">
+        <div class="items b-auto fg-1">A</div>
+        <div class="items b-auto fg-1">BBBB</div>
+        <div class="items b-auto fg-1">C</div>
+        <div class="items fg-2">DEF</div>
+    </div>
+
+    <h2>flex-basis:0;</h2>
+    <div class=" container">
+        <div class="items b-0 fg-1">Aaaaaaaaaa</div>
+        <div class="items b-0 fg-1">BBBB</div>
+        <div class="items b-0 fg-1">C</div>
+        <div class="items b-0 fg-1">DEF</div>
+    </div>
+
+    <h2>flex-basis:100px;</h2> 
+    <div class=" container">
+        <div class="items b-width fg-2 ">A</div>
+        <div class="items b-width fg-0 ">BBBB</div>
+        <div class="items b-width fg-0 ">C</div>
+        <div class="items b-width fg-0 ">DEF</div>
+    </div>
+
+    <!--resumindo sobre o flex-basis , ele pega o espaço restante do conteúdo , junto com a propoção de crescimento do conteúdo restante. -->
+    
+</body>
+</html>

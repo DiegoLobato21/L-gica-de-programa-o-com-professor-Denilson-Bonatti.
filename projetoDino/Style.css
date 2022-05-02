@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.dino{
+    background-image: url(Imagens/dino.png);
+    width: 50px;
+    height: 60px;
+    
+    position: absolute;
+    bottom: 0px;
+    margin-left: 20px;
+}
+
+.cactus{
+    position:absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    background-image: url(imagens/cactus.png);
+    
+}
+
+.game-Over{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25%;
+    color: gray;
+    
+}
+
+@keyFrames deslizarCenario{
+    from{
+        background-position: 70000%;
+    }
+
+    to{
+        background-position: 0;
+    }
+}
+
+.fundo{
+    position: absolute;
+    bottom: 0;
+    background-image: url(imagens/background.png);
+    background-repeat: repeat-x;
+    animation: deslizarCenario 600s infinite linear;
+    width: 100%;
+    height: 200px;
+    
+
+}

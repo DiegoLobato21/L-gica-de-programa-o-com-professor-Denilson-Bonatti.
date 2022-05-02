@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    border: 2px solid black;
+    max-width: 300px;
+    margin-bottom: 20px;
+  
+}
+.item{
+    background-color:pink;
+    margin: 5px;
+    padding:10px;
+    text-align: center;
+    color: white;
+}
+
+.flexgrow0{
+    flex-grow:0;
+}
+
+.flexgrow1{
+    flex-grow: 1;
+}
+
+.flexgrow2{
+
+    flex-grow: 2;
+}
+
+.flexgrow3{
+    flex-grow: 3;
+}
